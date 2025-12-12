@@ -1,0 +1,8 @@
+{
+  "name": "GlobalSight",
+  "description": "An advanced multimodal world-analysis AI that transforms inputs into actionable insights, root cause analysis, and predictive models.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
