@@ -10,30 +10,30 @@
 ![Gemini API](https://img.shields.io/badge/Gemini_3_Pro-Preview-8E75B2?logo=google&style=for-the-badge)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.0-38B2AC?logo=tailwind-css&style=for-the-badge)
 
-## 🚀 Overview
+## Overview
 
 GlobalSight is not just a chatbot; it is a **Real-Time World Problem Analysis Engine**. It leverages the reasoning capabilities of Google's **Gemini 3 Pro** model to ingest complex multimodal data (images, camera feeds, audio recordings, documents) and output structured, scientific, and policy-grade reports.
 
 Whether identifying environmental risks from a photo, analyzing infrastructure from a video feed, or simulating policy outcomes based on voice memos, GlobalSight provides a "Mission Control" interface for planetary data.
 
-## ✨ Key Features
+## Key Features
 
-### 🧠 Advanced Intelligence
+### Advanced Intelligence
 *   **Multimodal Input Core:** Seamlessly processes Text, Images (Upload/Camera), Audio (Microphone/Upload), and Geolocation data.
 *   **Deep Reasoning:** Performs Problem Detection, Root Cause Analysis, and Impact Prediction (Short/Long term).
 *   **Grounding:** Integrated **Google Search Grounding** to cross-reference visual data with real-time news and statistics.
 
-### 🛠 Active Simulation & Solutions
+### Active Simulation & Solutions
 *   **Actionable Solutions:** Generates specific advice for Personal, Business, and Government sectors.
 *   **Live Code Generation:** Automatically generates and renders **interactive HTML/JS/Chart.js simulations** to visualize data or predicted scenarios directly within the app.
 *   **Mission Control Chat:** A conversational follow-up interface to refine analysis or ask tactical questions.
 
-### 🎨 Immersive UI/UX
+### Immersive UI/UX
 *   **Holographic Aesthetic:** A futuristic "Glassmorphism" design with dynamic aurora backgrounds, 3D tilt effects, and scanning animations.
 *   **Responsive & Accessible:** Fully responsive design with speech synthesis (Text-to-Speech) and voice input.
 *   **Printable Reports:** Automatic formatting for export-ready PDF reports.
 
-## 🏗️ Tech Stack
+##  Tech Stack
 
 *   **Frontend:** React 19, TypeScript, Vite (implied).
 *   **AI Model:** Google GenAI SDK (`@google/genai`) - **Gemini 3 Pro Preview**.
@@ -41,7 +41,7 @@ Whether identifying environmental risks from a photo, analyzing infrastructure f
 *   **Visualization:** Chart.js, Leaflet.js (injected dynamically).
 *   **State Management:** React Hooks (`useState`, `useRef`).
 
-## ⚡ Getting Started
+##  Getting Started
 
 ### Prerequisites
 *   Node.js (v18 or higher)
@@ -77,7 +77,7 @@ Whether identifying environmental risks from a photo, analyzing infrastructure f
 5.  **Access the Mission Control**
     Open `http://localhost:3000` (or the port shown in your terminal).
 
-## 📖 Usage Guide
+##  Usage Guide
 
 1.  **Input Data:**
     *   **Text:** Type a hypothesis or question.
@@ -92,4 +92,39 @@ Whether identifying environmental risks from a photo, analyzing infrastructure f
     *   Listen to the audio summary.
 4.  **Follow Up:** Use the chat interface at the bottom to ask follow-up questions or request specific code simulations.
 
-## 📂 Project Structure
+##  Project Structure
+globalsight/
+├── src/
+│ ├── components/
+│ │ ├── AnalysisDisplay.tsx # Renders the report, code, and chat
+│ │ └── InputSection.tsx # Camera, Audio, and File inputs
+│ ├── services/
+│ │ └── geminiService.ts # API logic & Error handling
+│ ├── App.tsx # Main layout & State
+│ ├── constants.ts # System Instructions & Model Config
+│ └── types.ts # TS Interfaces
+├── index.html # Entry HTML & Global Styles
+└── index.tsx # React Entry Point
+code
+Code
+##  Permissions
+
+To utilize the full capabilities of GlobalSight, your browser will request:
+*   **Camera:** For "Field Scan" operations.
+*   **Microphone:** For voice reporting and voice chat commands.
+*   **Geolocation:** To ground the analysis in your physical location.
+
+##  Contributing
+
+Contributions are welcome! Please follow these steps:
+1.  Fork the project.
+2.  Create your feature branch (`git checkout -b feature/AmazingFeature`).
+3.  Commit your changes (`git commit -m 'Add some AmazingFeature'`).
+4.  Push to the branch (`git push origin feature/AmazingFeature`).
+5.  Open a Pull Request.
+
+##  License
+
+Distributed under the MIT License. See `LICENSE` for more information.
+
+---
